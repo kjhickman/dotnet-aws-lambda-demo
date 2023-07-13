@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRuntime", "src\custom-runtime\CustomRuntime.csproj", "{80FFBB67-5DDB-487A-A2F6-8037B29E9D73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedRuntime", "src\managed-runtime\ManagedRuntime.csproj", "{57464A52-44DF-4161-9377-4475221A3E30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeAot", "src\native-aot\NativeAot.csproj", "{C850479E-4454-4045-88D8-B78C1CE67083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80FFBB67-5DDB-487A-A2F6-8037B29E9D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FFBB67-5DDB-487A-A2F6-8037B29E9D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FFBB67-5DDB-487A-A2F6-8037B29E9D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FFBB67-5DDB-487A-A2F6-8037B29E9D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57464A52-44DF-4161-9377-4475221A3E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57464A52-44DF-4161-9377-4475221A3E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57464A52-44DF-4161-9377-4475221A3E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57464A52-44DF-4161-9377-4475221A3E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C850479E-4454-4045-88D8-B78C1CE67083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C850479E-4454-4045-88D8-B78C1CE67083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C850479E-4454-4045-88D8-B78C1CE67083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C850479E-4454-4045-88D8-B78C1CE67083}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
